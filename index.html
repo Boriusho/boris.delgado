@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Inter:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/93769b44bb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <!-- Back to top button -->
+    <a id="button"></a>
+
+    <header>
+      <section class="menu-section">
+        <div class="logo">bd</div>
+        <div>
+          <button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+          </button>
+          <nav id="main-menu">
+            <a href="#works" class="main-menu-link">Proyectos</a>
+            <a href="#about" class="main-menu-link">Sobre mí</a>
+            <a href="files/resumen.pdf" class="main-menu-link" target="_blank">Resumén</a>
+            <a href="#contact" class="main-menu-link">Contacto</a>
+          </nav>
+        </div>
+      </section>
+
+      <section class="header-section">
+        <div class="header-description">
+          <p>¡Hola! Soy</p>
+          <p class="profession">Boris Delgado, Junior UX/UI Designer</p>
+          <p>
+            apasionado del diseño centrado en las personas, teniendo en cuenta las necesidades y deseos de los usuarios
+            para crear soluciones que sean intuitivas y satisfactorias.
+          </p>
+          <div class="header-scroll-down"><a href="#works">Desliza hacia abajo ↓</a></div>
+        </div>
+        <div class="header-foto-wrapper">
+          <!--<img class="header-foto" src="Assets/images/foto.jpg" alt="foto" />-->
+        </div>
+      </section>
+    </header>
+    <div class="container">
+      <section id="works" class="section">
+        <div class="section-works">
+          <h1>Proyectos</h1>
+          <div class="section-works-menu">
+            <a
+              href="https://medium.com/@boriusho/e-scooter-ux-ui-case-study-46f7dd64052f"
+              target="_blank"
+              class="section-works-menu-item"
+              data-hover="Assets/images/scooter.png"
+            >
+              <div class="section-works-menu-item-name">E-Scooter</div>
+              <div class="section-works-menu-item-description-wrapper">
+                <div class="section-works-menu-item-description">Rent electrical scooter</div>
+                <div class="section-works-menu-item-type">App, UX/UI</div>
+              </div>
+            </a>
+            <a
+              href="https://medium.com/@boriusho/kiddykare-ux-ui-case-study-bb8077e1ec72"
+              target="_blank"
+              class="section-works-menu-item"
+              data-hover="Assets/images/kiddykare.png"
+            >
+              <div class="section-works-menu-item-name">KiddyKare</div>
+              <div class="section-works-menu-item-description-wrapper">
+                <div class="section-works-menu-item-description">Find Babysitter</div>
+                <div class="section-works-menu-item-type">App, UX/UI</div>
+              </div>
+            </a>
+            <a href="#" target="_blank" class="section-works-menu-item" data-hover="Assets/images/kiddykare.png">
+              <div class="section-works-menu-item-name">Travel Beaters</div>
+              <div class="section-works-menu-item-description-wrapper">
+                <div class="section-works-menu-item-description">Travel agency</div>
+                <div class="section-works-menu-item-type">Web Design</div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="section-works-image"><img src="Assets/images/scooter.png" alt="about me" /></div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="section-about-image"><img src="Assets/images/about.jpg" alt="about me" /></div>
+        <div class="section-about">
+          <h1>Sobre mí</h1>
+          <div class="section-about-text">
+            <p>
+              Apasionado por la tecnologia y su usabilidad en beneficio de la humanidad. Como UX/UI designer mi objetivo
+              es crear experiencias digitales atractivas y fáciles de usar. He colaborado en proyectos de diseño de
+              aplicaciones móviles, desde la fase de investigación hasta la implementación.
+            </p>
+            <p>
+              Mis habilidades incluyen el diseño de wireframes y prototipos y colaboración con desarrolladores y
+              diseñadores.
+            </p>
+            <p>
+              Comprender a las personas, tener empatía hacia los desafíos que se presentan y ayudar a encontrar
+              soluciones a través de un diseño intuitivo e interacciones perspicaces es la fuerza que me impulsa en este
+              campo.
+            </p>
+            <p>
+              Estoy abierto a puestos junior a tiempo parcial o completo en el campo de la experiencia de usuario y el
+              diseño de productos y por supuesto entusiasmado por seguir aprendiendo y creciendo en mi carrera como
+              UX/UI designer!
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <nav id="contact" class="social-links">
+        <a
+          id="mail"
+          class="website-link"
+          href="https://mail.google.com/mail/u/0/?fs=1&amp;tf=cm&amp;source=mailto&amp;to=boriusho@gmail.com"
+          target="_blank"
+          >boriusho@gmail.com</a
+        >
+        <a
+          id="phone"
+          class="website-link"
+          href="https://api.whatsapp.com/send?phone=+34722708100&text=Hola,%20me%20gusta%20tu%20portfolio%20y%20me%20encantar%C3%ADa%20hablar%20contigo."
+          target="_blank"
+          >+34 722708100</a
+        >
+        <a
+          id="linkedin"
+          class="website-link"
+          href="https://www.linkedin.com/in/boris-delgado-mor%C3%A1n/"
+          target="_blank"
+          >/boris-delgado-morán</a
+        >
+      </nav>
+      <div class="logo">bd</div>
+    </footer>
+  </body>
+  <script src="granim/dist/granim.min.js"></script>
+  <script src="scripts/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</html>
