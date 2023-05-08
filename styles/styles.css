@@ -189,15 +189,15 @@ footer {
 }
 
 #mail {
-  background: url(images/mail.png) no-repeat;
+  background: url(../images/mail.png) no-repeat;
 }
 
 #phone {
-  background: url(images/phone.png) no-repeat;
+  background: url(../images/phone.png) no-repeat;
 }
 
 #linkedin {
-  background: url(images/linkedin.png) no-repeat;
+  background: url(../images/linkedin.png) no-repeat;
 }
 
 .social-links {
