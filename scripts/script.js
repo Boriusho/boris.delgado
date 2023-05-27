@@ -1,11 +1,11 @@
-const hamburger = document.getElementById('hamburger')
+/*const hamburger = document.getElementById('hamburger')
 const menu = document.getElementById('main-menu')
 
 hamburger.addEventListener('click', () => {
   menu.classList.toggle('show')
 })
 
-/*var granimInstance = new Granim({
+var granimInstance = new Granim({
   element: '#canvas-interactive-header',
   direction: 'diagonal',
   isPausedWhenNotInView: true,
