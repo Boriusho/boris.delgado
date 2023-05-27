@@ -25,14 +25,41 @@
       <section class="menu-section">
         <div class="logo">bd</div>
         <div>
-          <button class="hamburger" id="hamburger">
-            <i class="fas fa-bars"></i>
-          </button>
           <nav id="main-menu">
             <a href="#works" class="main-menu-link">Proyectos</a>
             <a href="#about" class="main-menu-link">Sobre mí</a>
             <a href="files/resumen.pdf" class="main-menu-link" target="_blank">Resumén</a>
             <a href="#contact" class="main-menu-link">Contacto</a>
+          </nav>
+          <nav role="navigation">
+            <div id="menuToggle">
+              <!--
+              A fake / hidden checkbox is used as click reciever,
+              so you can use the :checked selector on it.
+              -->
+              <input type="checkbox" />
+
+              <!--
+              Some spans to act as a hamburger.
+              
+              They are acting like a real hamburger,
+              not that McDonalds stuff.
+              -->
+              <span></span>
+              <span></span>
+              <span></span>
+
+              <!--
+              Too bad the menu has to be inside of the button
+              but hey, it's pure CSS magic.
+              -->
+              <ul id="menu">
+                <a href="#works"><li>Proyectos</li></a>
+                <a href="#about"><li>Sobre mí</li></a>
+                <a href="files/resumen.pdf"><li>Resumén</li></a>
+                <a href="#contact"><li>Contacto</li></a>
+              </ul>
+            </div>
           </nav>
         </div>
       </section>
@@ -40,15 +67,15 @@
       <section class="header-section">
         <div class="header-description">
           <p>¡Hola! Soy</p>
-          <p class="profession">Boris Delgado, Junior UX/UI Designer</p>
+          <p class="profession">Boris Delgado, junior UX/UI designer</p>
           <p>
             apasionado del diseño centrado en las personas, teniendo en cuenta las necesidades y deseos de los usuarios
-            para crear soluciones que sean intuitivas y satisfactorias.
+            para crear soluciones digitales intuitivas y satisfactorias.
           </p>
           <div class="header-scroll-down"><a href="#works">Desliza hacia abajo ↓</a></div>
         </div>
         <div class="header-foto-wrapper">
-          <!--<img class="header-foto" src="images/foto.jpg" alt="foto" />-->
+          <!--<img class="header-foto" src="Assets/images/foto.jpg" alt="foto" />-->
         </div>
       </section>
     </header>
@@ -61,7 +88,7 @@
               href="https://medium.com/@boriusho/e-scooter-ux-ui-case-study-46f7dd64052f"
               target="_blank"
               class="section-works-menu-item"
-              data-hover="images/scooter.jpeg"
+              data-hover="Assets/images/scooter.png"
             >
               <div class="section-works-menu-item-name">E-Scooter</div>
               <div class="section-works-menu-item-description-wrapper">
@@ -73,7 +100,7 @@
               href="https://medium.com/@boriusho/kiddykare-ux-ui-case-study-bb8077e1ec72"
               target="_blank"
               class="section-works-menu-item"
-              data-hover="images/kiddykare.jpeg"
+              data-hover="Assets/images/kiddykare.png"
             >
               <div class="section-works-menu-item-name">KiddyKare</div>
               <div class="section-works-menu-item-description-wrapper">
@@ -81,7 +108,7 @@
                 <div class="section-works-menu-item-type">App, UX/UI</div>
               </div>
             </a>
-            <a href="#" target="_blank" class="section-works-menu-item" data-hover="images/kiddykare.jpeg">
+            <a href="#" target="_blank" class="section-works-menu-item" data-hover="Assets/images/kiddykare.png">
               <div class="section-works-menu-item-name">Travel Beaters</div>
               <div class="section-works-menu-item-description-wrapper">
                 <div class="section-works-menu-item-description">Travel agency</div>
@@ -90,32 +117,32 @@
             </a>
           </div>
         </div>
-        <div class="section-works-image"><img src="images/scooter.jpeg" alt="work" /></div>
+        <div class="section-works-image"><img src="Assets/images/scooter.png" alt="about me" /></div>
       </section>
 
       <section id="about" class="section">
-        <div class="section-about-image"><img src="images/about.jpg" alt="about me" /></div>
+        <div class="section-about-image"><img src="Assets/images/about.jpg" alt="about me" /></div>
         <div class="section-about">
           <h1>Sobre mí</h1>
           <div class="section-about-text">
             <p>
-              Apasionado por la tecnologia y su usabilidad en beneficio de la humanidad. Como UX/UI designer mi objetivo
-              es crear experiencias digitales atractivas y fáciles de usar. He colaborado en proyectos de diseño de
-              aplicaciones móviles, desde la fase de investigación hasta la implementación.
+              Como UX/UI designer mi objetivo es ofrecer experiencias digitales fáciles de usar y centradas en el
+              usuario.
             </p>
             <p>
-              Mis habilidades incluyen el diseño de wireframes y prototipos y colaboración con desarrolladores y
-              diseñadores.
+              Mis habilidades incluyen el uso de herramientas de diseño como adobe XD, Sketch y Figma lo que me permite
+              crear prototipos interactivos y diseños de alta fidelidad. Tambien tengo habilidades en HTML, CSS y
+              JavaScript, lo que me permite colaborar con los desarrolladores para asegurar que los diseños se
+              implementan de manera efectiva.
             </p>
             <p>
-              Comprender a las personas, tener empatía hacia los desafíos que se presentan y ayudar a encontrar
-              soluciones a través de un diseño intuitivo e interacciones perspicaces es la fuerza que me impulsa en este
-              campo.
+              Además de mis habilidades técnicas, soy un gran colaborador en equipos multidisciplinarios. Disfruto
+              trabajando en un entorno dinámico, donde puedo contribuir con ideas innovadoras y aprender de
+              profesionales más experimentados.
             </p>
             <p>
               Estoy abierto a puestos junior a tiempo parcial o completo en el campo de la experiencia de usuario y el
-              diseño de productos y por supuesto entusiasmado por seguir aprendiendo y creciendo en mi carrera como
-              UX/UI designer!
+              diseño de productos. Estoy entusiasmado por seguir aprendiendo y creciendo en esta emocionante industria.
             </p>
           </div>
         </div>
@@ -148,6 +175,7 @@
       <div class="logo">bd</div>
     </footer>
   </body>
+  <script src="granim/dist/granim.min.js"></script>
   <script src="scripts/jquery-3.6.0.min.js"></script>
   <script src="scripts/script.js"></script>
 </html>
