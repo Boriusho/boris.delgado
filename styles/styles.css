@@ -16,6 +16,18 @@ a {
   text-decoration: none;
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.soon {
+  color: red;
+  font-size: 13px;
+  margin-left: 8px;
+  margin-top: 3px;
+}
+
 .main-menu-link:hover,
 .website-link:hover,
 #menu a:hover {
@@ -104,6 +116,10 @@ header {
   border-radius: 100px;
 }
 
+#about {
+  margin-top: -10px;
+}
+
 .section {
   display: flex;
   color: #252525;
@@ -131,13 +147,13 @@ header {
 
 .section-works-menu-item-name {
   font-size: 20px;
-  padding-bottom: 5px;
 }
 
 .section-works-menu-item-description-wrapper {
   display: flex;
   justify-content: space-between;
   font-size: 12px;
+  margin-top: 5px;
 }
 
 .section-works-menu-item-type {
@@ -155,11 +171,6 @@ header {
 
 .section-about-image {
   width: 50%;
-}
-
-.section-about-image img,
-.section-works-image img {
-  height: 628px;
 }
 
 .section-about-text {
